@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn DM"
+  short_description: "Write connection notes and thoughtful LinkedIn follow-ups"
+  default_prompt: "Use $li-dm to write a connection note, first message, and two follow-ups for this LinkedIn outreach."
