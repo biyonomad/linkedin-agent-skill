@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Audit"
+  short_description: "Audit past LinkedIn posts and identify what works"
+  default_prompt: "Use $li-audit to analyze these LinkedIn posts or analytics and tell me what to stop, continue, and test next."

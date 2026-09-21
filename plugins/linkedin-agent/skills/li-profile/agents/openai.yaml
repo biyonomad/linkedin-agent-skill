@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Profile"
+  short_description: "Audit and rewrite a LinkedIn profile against a rubric"
+  default_prompt: "Use $li-profile to score this LinkedIn profile, show what is losing points, and rewrite the highest-impact sections."

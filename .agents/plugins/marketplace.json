@@ -1,0 +1,20 @@
+{
+  "name": "linkedin-agent",
+  "interface": {
+    "displayName": "LinkedIn Agent"
+  },
+  "plugins": [
+    {
+      "name": "linkedin-agent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/linkedin-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Repurpose"
+  short_description: "Turn long-form content into a week of LinkedIn posts"
+  default_prompt: "Use $li-repurpose to turn this long-form content into a week of distinct LinkedIn post ideas and draft them one at a time."

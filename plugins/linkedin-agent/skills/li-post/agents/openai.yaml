@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Post"
+  short_description: "Turn one real idea into a polished LinkedIn post"
+  default_prompt: "Use $li-post to turn this idea into a LinkedIn post with three hook options, one full draft, and a copy-ready version."
