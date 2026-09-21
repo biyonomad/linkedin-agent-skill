@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Comment"
+  short_description: "Write specific, human LinkedIn comments that add value"
+  default_prompt: "Use $li-comment to write two strong comment options for this LinkedIn post and explain which one fits best."

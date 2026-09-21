@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Humanizer"
+  short_description: "Humanize drafts and flag machine-written text patterns"
+  default_prompt: "Use $li-human to humanize this draft, remove machine-like patterns, and report what changed."

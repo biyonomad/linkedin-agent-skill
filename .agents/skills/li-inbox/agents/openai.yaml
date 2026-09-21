@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Inbox"
+  short_description: "Triage LinkedIn messages and draft worthwhile replies"
+  default_prompt: "Use $li-inbox to triage these LinkedIn messages, prioritize what matters, and draft the replies worth sending."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Planner"
+  short_description: "Plan a focused week of LinkedIn posts and engagement"
+  default_prompt: "Use $li-plan to build my LinkedIn plan for the week, including post themes, timing, and engagement priorities."
