@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Replies"
+  short_description: "Prioritize LinkedIn comments and draft useful replies"
+  default_prompt: "Use $li-reply to prioritize these comments on my LinkedIn post and draft the replies worth sending."

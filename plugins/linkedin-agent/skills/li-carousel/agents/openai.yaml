@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Carousel"
+  short_description: "Create swipeable LinkedIn document carousel copy"
+  default_prompt: "Use $li-carousel to turn this idea into a LinkedIn document carousel, including slide copy and the accompanying post text."

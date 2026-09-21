@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "linkedin-agent",
+  "version": "1.0.0",
+  "description": "Eleven reusable LinkedIn workflows for writing, engagement, planning, profile optimization, repurposing, outreach, inbox triage, auditing, and humanization.",
+  "author": {
+    "name": "biyonomad"
+  },
+  "homepage": "https://github.com/biyonomad/linkedin-agent-skill",
+  "repository": "https://github.com/biyonomad/linkedin-agent-skill",
+  "license": "MIT",
+  "keywords": [
+    "linkedin",
+    "content",
+    "writing",
+    "social-media",
+    "productivity"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "LinkedIn Agent",
+        "shortDescription": "Eleven reusable LinkedIn writing and workflow skills.",
+        "longDescription": "A skills-only LinkedIn workflow pack for ChatGPT and Codex. Draft posts, comments, replies and DMs; plan content; repurpose long-form material; audit performance; improve profiles; triage inboxes; and humanize drafts. Nothing is auto-published.",
+        "developerName": "biyonomad",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/biyonomad/linkedin-agent-skill",
+        "defaultPrompt": [
+          "Use LinkedIn Agent to turn this idea into a LinkedIn post.",
+          "Use LinkedIn Agent to plan my LinkedIn content for this week.",
+          "Use LinkedIn Agent to humanize this draft before I publish it."
+        ]
+      }
+    }
+  }
+}
