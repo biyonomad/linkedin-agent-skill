@@ -172,6 +172,32 @@ templates/voice.md               your voice profile. Fill this in first.
 Made by Jake Schincariol, [opusjake.ai](https://opusjake.ai).
 The full write-up is at [opusjake.ai/r/linkedin-agent](https://opusjake.ai/r/linkedin-agent).
 
+
+## OpenAI / Codex
+
+This fork also ships a non-destructive OpenAI/Codex compatibility layer under `.agents/skills/`.
+The original Claude implementation in `skills/` and `.claude-plugin/` is preserved unchanged.
+
+### Codex / agent skills
+
+Open this repository in Codex and use the sibling skills under `.agents/skills/` by name:
+
+- `li-post`
+- `li-comment`
+- `li-reply`
+- `li-profile`
+- `li-plan`
+- `li-human`
+- `li-carousel`
+- `li-repurpose`
+- `li-dm`
+- `li-inbox`
+- `li-audit`
+
+Supporting data and scripts are bundled beside the skills that need them. Runtime state uses project-local `.linkedin-agent/` paths when a writable filesystem exists. In environments without persistent filesystem access, the skills fall back to current conversation/project context and must not claim that state was persisted.
+
+See [`.agents/README.md`](.agents/README.md) for the compatibility contract.
+
 ## License
 
 MIT. Take it, change it, ship it.
